@@ -19,8 +19,10 @@
             Dim s As String = "#"
             s += COLOR1.ToArgb.ToString("X6")
             s = s.Remove(1, 2)
-
             TextBox1.Text = s
+            RColor.Value = COLOR1.R
+            GColor.Value = COLOR1.G
+            BColor.Value = COLOR1.B
         Catch ex As Exception
 
         End Try

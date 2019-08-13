@@ -27,7 +27,16 @@ Partial Class Form1
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.RColor = New System.Windows.Forms.NumericUpDown()
+        Me.GColor = New System.Windows.Forms.NumericUpDown()
+        Me.BColor = New System.Windows.Forms.NumericUpDown()
+        Me.Rtext = New System.Windows.Forms.Label()
+        Me.Btext = New System.Windows.Forms.Label()
+        Me.Gtext = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RColor, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GColor, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BColor, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -68,11 +77,68 @@ Partial Class Form1
         Me.Button2.Text = "copy code"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'RColor
+        '
+        Me.RColor.Location = New System.Drawing.Point(30, 99)
+        Me.RColor.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.RColor.Name = "RColor"
+        Me.RColor.Size = New System.Drawing.Size(120, 20)
+        Me.RColor.TabIndex = 4
+        '
+        'GColor
+        '
+        Me.GColor.Location = New System.Drawing.Point(30, 125)
+        Me.GColor.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.GColor.Name = "GColor"
+        Me.GColor.Size = New System.Drawing.Size(120, 20)
+        Me.GColor.TabIndex = 4
+        '
+        'BColor
+        '
+        Me.BColor.Location = New System.Drawing.Point(29, 149)
+        Me.BColor.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.BColor.Name = "BColor"
+        Me.BColor.Size = New System.Drawing.Size(120, 20)
+        Me.BColor.TabIndex = 4
+        '
+        'Rtext
+        '
+        Me.Rtext.AutoSize = True
+        Me.Rtext.Location = New System.Drawing.Point(9, 101)
+        Me.Rtext.Name = "Rtext"
+        Me.Rtext.Size = New System.Drawing.Size(15, 13)
+        Me.Rtext.TabIndex = 5
+        Me.Rtext.Text = "R"
+        '
+        'Btext
+        '
+        Me.Btext.AutoSize = True
+        Me.Btext.Location = New System.Drawing.Point(9, 151)
+        Me.Btext.Name = "Btext"
+        Me.Btext.Size = New System.Drawing.Size(14, 13)
+        Me.Btext.TabIndex = 5
+        Me.Btext.Text = "B"
+        '
+        'Gtext
+        '
+        Me.Gtext.AutoSize = True
+        Me.Gtext.Location = New System.Drawing.Point(9, 127)
+        Me.Gtext.Name = "Gtext"
+        Me.Gtext.Size = New System.Drawing.Size(15, 13)
+        Me.Gtext.TabIndex = 5
+        Me.Gtext.Text = "G"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(594, 385)
+        Me.Controls.Add(Me.Gtext)
+        Me.Controls.Add(Me.Btext)
+        Me.Controls.Add(Me.Rtext)
+        Me.Controls.Add(Me.BColor)
+        Me.Controls.Add(Me.GColor)
+        Me.Controls.Add(Me.RColor)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
@@ -80,6 +146,9 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RColor, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GColor, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BColor, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -89,5 +158,11 @@ Partial Class Form1
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents RColor As System.Windows.Forms.NumericUpDown
+    Friend WithEvents GColor As System.Windows.Forms.NumericUpDown
+    Friend WithEvents BColor As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Rtext As System.Windows.Forms.Label
+    Friend WithEvents Btext As System.Windows.Forms.Label
+    Friend WithEvents Gtext As System.Windows.Forms.Label
 
 End Class
