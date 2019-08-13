@@ -46,4 +46,13 @@
 
 
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Try
+            Clipboard.SetText(rgbCode.Text)
+            MsgBox("Color was copied !")
+        Catch ex As Exception
+
+        End Try
+    End Sub
 End Class
