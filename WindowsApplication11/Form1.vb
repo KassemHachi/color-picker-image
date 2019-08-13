@@ -23,6 +23,7 @@
             RColor.Value = COLOR1.R
             GColor.Value = COLOR1.G
             BColor.Value = COLOR1.B
+            rgbCode.Text = ("rgb(" + COLOR1.R.ToString + "," + COLOR1.G.ToString + "," + COLOR1.B.ToString + ")")
         Catch ex As Exception
 
         End Try

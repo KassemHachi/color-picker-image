@@ -34,6 +34,7 @@ Partial Class Form1
         Me.Rtext = New System.Windows.Forms.Label()
         Me.Btext = New System.Windows.Forms.Label()
         Me.Gtext = New System.Windows.Forms.Label()
+        Me.rgbCode = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RColor, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GColor, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -129,6 +130,13 @@ Partial Class Form1
         Me.Gtext.TabIndex = 5
         Me.Gtext.Text = "G"
         '
+        'rgbCode
+        '
+        Me.rgbCode.Location = New System.Drawing.Point(12, 175)
+        Me.rgbCode.Name = "rgbCode"
+        Me.rgbCode.Size = New System.Drawing.Size(163, 20)
+        Me.rgbCode.TabIndex = 2
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -141,6 +149,7 @@ Partial Class Form1
         Me.Controls.Add(Me.GColor)
         Me.Controls.Add(Me.RColor)
         Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.rgbCode)
         Me.Controls.Add(Me.colorCode)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
@@ -168,5 +177,6 @@ Partial Class Form1
     Friend WithEvents Rtext As System.Windows.Forms.Label
     Friend WithEvents Btext As System.Windows.Forms.Label
     Friend WithEvents Gtext As System.Windows.Forms.Label
+    Friend WithEvents rgbCode As System.Windows.Forms.TextBox
 
 End Class
