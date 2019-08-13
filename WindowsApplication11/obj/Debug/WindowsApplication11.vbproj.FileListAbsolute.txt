@@ -1,0 +1,10 @@
+c:\users\kasse\documents\visual studio 2012\Projects\WindowsApplication11\WindowsApplication11\bin\Debug\WindowsApplication11.exe.config
+c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\WindowsApplication11\bin\Debug\WindowsApplication11.exe
+c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\WindowsApplication11\bin\Debug\WindowsApplication11.pdb
+c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\WindowsApplication11\bin\Debug\WindowsApplication11.xml
+c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\WindowsApplication11\obj\Debug\WindowsApplication11.Form1.resources
+c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\WindowsApplication11\obj\Debug\WindowsApplication11.Resources.resources
+c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\WindowsApplication11\obj\Debug\WindowsApplication11.vbproj.GenerateResource.Cache
+c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\WindowsApplication11\obj\Debug\WindowsApplication11.exe
+c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\WindowsApplication11\obj\Debug\WindowsApplication11.xml
+c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\WindowsApplication11\obj\Debug\WindowsApplication11.pdb
