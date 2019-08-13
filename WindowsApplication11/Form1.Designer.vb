@@ -36,10 +36,12 @@ Partial Class Form1
         Me.Gtext = New System.Windows.Forms.Label()
         Me.rgbCode = New System.Windows.Forms.TextBox()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.previewColor = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RColor, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GColor, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BColor, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.previewColor, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -147,11 +149,20 @@ Partial Class Form1
         Me.Button3.Text = "copy rgb code"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'previewColor
+        '
+        Me.previewColor.Location = New System.Drawing.Point(12, 230)
+        Me.previewColor.Name = "previewColor"
+        Me.previewColor.Size = New System.Drawing.Size(163, 52)
+        Me.previewColor.TabIndex = 6
+        Me.previewColor.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(594, 385)
+        Me.Controls.Add(Me.previewColor)
         Me.Controls.Add(Me.Gtext)
         Me.Controls.Add(Me.Btext)
         Me.Controls.Add(Me.Rtext)
@@ -173,6 +184,7 @@ Partial Class Form1
         CType(Me.RColor, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GColor, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BColor, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.previewColor, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -190,5 +202,6 @@ Partial Class Form1
     Friend WithEvents Gtext As System.Windows.Forms.Label
     Friend WithEvents rgbCode As System.Windows.Forms.TextBox
     Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents previewColor As System.Windows.Forms.PictureBox
 
 End Class

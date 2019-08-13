@@ -15,7 +15,7 @@
             For y = 0 To PictureBox1.Height
             Next
             COLOR1 = New Bitmap(Image1).GetPixel(e.X, e.Y)
-            Me.BackColor = COLOR1
+            previewColor.BackColor = COLOR1
             Dim s As String = "#"
             s += COLOR1.ToArgb.ToString("X6")
             s = s.Remove(1, 2)
