@@ -38,7 +38,7 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Try
             Clipboard.SetText(TextBox1.Text)
-
+            MsgBox("Color was copied !")
         Catch ex As Exception
 
         End Try
