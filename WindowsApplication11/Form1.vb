@@ -32,4 +32,8 @@
             PictureBox1.Image = Image.FromFile(OpenFileDialog1.FileName)
         End If
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Clipboard.SetText(TextBox1.Text)
+    End Sub
 End Class
