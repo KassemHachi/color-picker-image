@@ -8,3 +8,13 @@ c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\Window
 c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\WindowsApplication11\obj\Debug\WindowsApplication11.exe
 c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\WindowsApplication11\obj\Debug\WindowsApplication11.xml
 c:\Users\kasse\Documents\Visual Studio 2012\Projects\WindowsApplication11\WindowsApplication11\obj\Debug\WindowsApplication11.pdb
+C:\Users\kasse\Documents\Visual Studio 2012\Projects\color-picker-image\WindowsApplication11\bin\Debug\ColorPicker.exe.config
+C:\Users\kasse\Documents\Visual Studio 2012\Projects\color-picker-image\WindowsApplication11\bin\Debug\ColorPicker.exe
+C:\Users\kasse\Documents\Visual Studio 2012\Projects\color-picker-image\WindowsApplication11\bin\Debug\ColorPicker.pdb
+C:\Users\kasse\Documents\Visual Studio 2012\Projects\color-picker-image\WindowsApplication11\bin\Debug\ColorPicker.xml
+C:\Users\kasse\Documents\Visual Studio 2012\Projects\color-picker-image\WindowsApplication11\obj\Debug\WindowsApplication11.Form1.resources
+C:\Users\kasse\Documents\Visual Studio 2012\Projects\color-picker-image\WindowsApplication11\obj\Debug\WindowsApplication11.Resources.resources
+C:\Users\kasse\Documents\Visual Studio 2012\Projects\color-picker-image\WindowsApplication11\obj\Debug\WindowsApplication11.vbproj.GenerateResource.Cache
+C:\Users\kasse\Documents\Visual Studio 2012\Projects\color-picker-image\WindowsApplication11\obj\Debug\ColorPicker.exe
+C:\Users\kasse\Documents\Visual Studio 2012\Projects\color-picker-image\WindowsApplication11\obj\Debug\ColorPicker.xml
+C:\Users\kasse\Documents\Visual Studio 2012\Projects\color-picker-image\WindowsApplication11\obj\Debug\ColorPicker.pdb
