@@ -36,6 +36,13 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Clipboard.SetText(TextBox1.Text)
+        Try
+            Clipboard.SetText(TextBox1.Text)
+
+        Catch ex As Exception
+
+        End Try
+
+
     End Sub
 End Class

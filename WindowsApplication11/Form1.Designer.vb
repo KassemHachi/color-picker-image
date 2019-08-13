@@ -145,6 +145,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximumSize = New System.Drawing.Size(610, 424)
+        Me.MinimumSize = New System.Drawing.Size(610, 424)
         Me.Name = "Form1"
         Me.Text = "color picker"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
