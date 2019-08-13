@@ -19,7 +19,7 @@
             Dim s As String = "#"
             s += COLOR1.ToArgb.ToString("X6")
             s = s.Remove(1, 2)
-            TextBox1.Text = s
+            colorCode.Text = s
             RColor.Value = COLOR1.R
             GColor.Value = COLOR1.G
             BColor.Value = COLOR1.B
@@ -37,7 +37,7 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Try
-            Clipboard.SetText(TextBox1.Text)
+            Clipboard.SetText(colorCode.Text)
             MsgBox("Color was copied !")
         Catch ex As Exception
 

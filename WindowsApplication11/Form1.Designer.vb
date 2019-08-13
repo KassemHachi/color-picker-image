@@ -25,7 +25,7 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.colorCode = New System.Windows.Forms.TextBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.RColor = New System.Windows.Forms.NumericUpDown()
@@ -58,12 +58,12 @@ Partial Class Form1
         Me.Button1.Text = "open image"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'colorCode
         '
-        Me.TextBox1.Location = New System.Drawing.Point(12, 44)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(163, 20)
-        Me.TextBox1.TabIndex = 2
+        Me.colorCode.Location = New System.Drawing.Point(12, 44)
+        Me.colorCode.Name = "colorCode"
+        Me.colorCode.Size = New System.Drawing.Size(163, 20)
+        Me.colorCode.TabIndex = 2
         '
         'OpenFileDialog1
         '
@@ -141,7 +141,7 @@ Partial Class Form1
         Me.Controls.Add(Me.GColor)
         Me.Controls.Add(Me.RColor)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.colorCode)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -159,7 +159,7 @@ Partial Class Form1
     End Sub
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents colorCode As System.Windows.Forms.TextBox
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents RColor As System.Windows.Forms.NumericUpDown
