@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+    Dim pathApp As String = My.Application.Info.DirectoryPath
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
