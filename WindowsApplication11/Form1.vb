@@ -7,6 +7,7 @@
 
     Private Sub PictureBox1_MouseDown(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles PictureBox1.MouseDown
         Try
+
             Dim COLOR1 As Color
             Dim x As Integer = 0
             Dim y As Integer = 0
@@ -52,6 +53,15 @@
         Try
             Clipboard.SetText(rgbCode.Text)
             MsgBox("Color was copied !")
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub PictureBox1_MouseMove(sender As Object, e As MouseEventArgs) Handles PictureBox1.MouseMove
+        Try
+            PictureBox1.Cursor = New System.Windows.Forms.Cursor(pathApp + "\ColorPicker.ico")
+
         Catch ex As Exception
 
         End Try
