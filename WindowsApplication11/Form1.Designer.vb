@@ -66,6 +66,7 @@ Partial Class Form1
         '
         Me.colorCode.Location = New System.Drawing.Point(12, 44)
         Me.colorCode.Name = "colorCode"
+        Me.colorCode.ReadOnly = True
         Me.colorCode.Size = New System.Drawing.Size(163, 20)
         Me.colorCode.TabIndex = 2
         '
@@ -87,6 +88,7 @@ Partial Class Form1
         Me.RColor.Location = New System.Drawing.Point(30, 99)
         Me.RColor.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.RColor.Name = "RColor"
+        Me.RColor.ReadOnly = True
         Me.RColor.Size = New System.Drawing.Size(120, 20)
         Me.RColor.TabIndex = 4
         '
@@ -95,6 +97,7 @@ Partial Class Form1
         Me.GColor.Location = New System.Drawing.Point(30, 125)
         Me.GColor.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.GColor.Name = "GColor"
+        Me.GColor.ReadOnly = True
         Me.GColor.Size = New System.Drawing.Size(120, 20)
         Me.GColor.TabIndex = 4
         '
@@ -103,6 +106,7 @@ Partial Class Form1
         Me.BColor.Location = New System.Drawing.Point(29, 149)
         Me.BColor.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.BColor.Name = "BColor"
+        Me.BColor.ReadOnly = True
         Me.BColor.Size = New System.Drawing.Size(120, 20)
         Me.BColor.TabIndex = 4
         '
@@ -137,6 +141,7 @@ Partial Class Form1
         '
         Me.rgbCode.Location = New System.Drawing.Point(12, 175)
         Me.rgbCode.Name = "rgbCode"
+        Me.rgbCode.ReadOnly = True
         Me.rgbCode.Size = New System.Drawing.Size(163, 20)
         Me.rgbCode.TabIndex = 2
         '
